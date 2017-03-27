@@ -1,4 +1,4 @@
 <?php
-mysql_connect("localhost","root","");
-mysql_select_db("netfirm");
+mysql_connect("dev-hn.com","devhncom_netfirm","parolataegosho1");
+mysql_select_db("devhncom_netfirm");
 ?>
