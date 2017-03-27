@@ -1,8 +1,5 @@
 <?php
-error_reporting(0);
-ob_start();
-session_start();
-require_once "../includes/config.php";
+
 if($_SESSION['is-logged'] == true )
 {
 	header("Location: ./userpanel/index.php");
