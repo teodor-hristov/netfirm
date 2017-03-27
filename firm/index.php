@@ -2,7 +2,7 @@
 error_reporting(0);
 session_start();
 ob_start();
-// include "../../includes/config.php";
+include "../../includes/config.php";
 if($_SESSION['is-logged'] == true )
 {
 	header("Location: ./userpanel/index.php");
