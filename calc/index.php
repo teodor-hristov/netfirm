@@ -2,7 +2,7 @@
 error_reporting(0);
 ob_start();
 session_start();
-require_once "../includes/config.php";
+// require_once "../includes/config.php";
 if($_SESSION['is-logged-calc'] == true)
 {
 	header("Location: ./userpanel/index.php");
